@@ -1,0 +1,16 @@
+
+
+<div class="alert alert-primary" role="alert">
+<blockquote class="blockquote">
+  <p class="mb-0"><%= params[:question] %></p>
+  <footer class="blockquote-footer"><cite title="Source Title">You</cite></footer>
+</blockquote>
+</div>
+<div class="alert alert-warning" role="alert">
+  <blockquote id="coach-response" class="blockquote">
+  <p class="mb-0"><%= @reply %></p>
+  <footer class="blockquote-footer"><cite title="Source Title">Your Coach</cite></footer>
+</blockquote>
+</div>
+
+<%= link_to 'Ask a new question', ask_path %>
